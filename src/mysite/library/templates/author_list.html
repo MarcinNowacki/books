@@ -1,0 +1,14 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+<ul>
+{%for item in items %}
+<li>
+    {{ item.name }}
+    {{ item.surname}}
+    <a href="/author/{{ item.id }}">&#9432;</a>
+</li>
+{% endfor %}
+</ul>
+{% endblock %}

@@ -3,7 +3,7 @@ from django.http import HttpResponse
 from .models import Author
 
 def hello(request):
-    return HttpResponse("Hello again ")
+    return HttpResponse("Hello again, now in new branch!")
 
 
 def index(request):

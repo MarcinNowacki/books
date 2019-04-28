@@ -21,4 +21,7 @@ def author_view(request, pk):
     retval = {'item': author}
     return render(request, "author_view.html", retval)
 
+def book(request):
+    return HttpResponse("books folder")
+
 # Create your views here.

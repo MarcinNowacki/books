@@ -21,5 +21,6 @@ urlpatterns = [
     path('hello', views.hello),
     path('author/', views.author_list),
     path('author/<pk>', views.author_view),
-    path('', views.index)
+    path('', views.index),
+    path('book/', views.book)
 ]
